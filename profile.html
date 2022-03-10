@@ -14,8 +14,9 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="css/splide.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/vendor/splide/css/splide.min.css" />
     <title>Bienvenidos a Trekking Buenos Aires</title>
   </head>
   <body>
@@ -30,12 +31,30 @@
       </ul>
     </nav>
     <section class="container">
-      <a href="profiles.html" class="btn btn-light">Back To Profiles</a>
+      <a href="profiles.html" class="btn btn-light">Volver</a>
 
       <div class="profile-grid my-1">
+
          <!-- Top -->
-        <div class="profile-top bg-primary p-2">
-          <img
+        <div class="profile-top p-2">
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><img src="img/events/1.jfif"></li>
+                <li class="splide__slide"><img src="img/events/2.jfif"></li>
+                <li class="splide__slide"><img src="img/events/1.jfif"></li>
+                <li class="splide__slide"><img src="img/events/2.jfif"></li>
+              </ul>
+            </div>
+            
+            <!-- Add the progress bar element -->
+            <div class="my-slider-progress">
+              <div class="my-slider-progress-bar"></div>
+            </div>
+          </div>          
+
+
+          <!-- <img
             class="round-img my-1"
             src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
             alt=""
@@ -62,7 +81,8 @@
             <a href="#" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-instagram fa-2x"></i>
             </a>
-          </div>
+          </div> -->
+
         </div>
 
         <!-- About -->
@@ -170,5 +190,7 @@
         </div>
       </div>
     </section>
+    <script src="assets/vendor/splide/js/splide.min.js"></script>
+    <script src="js/splide.js"></script>
   </body>
 </html>
