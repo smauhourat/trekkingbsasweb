@@ -1,3 +1,4 @@
+<!--https://swiffyslider.com/docs/-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,10 +15,9 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/splide.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="assets/vendor/splide/css/splide.min.css" />
-    <title>Bienvenidos a Trekking Buenos Aires</title>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.1/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+   <title>Bienvenidos a Trekking Buenos Aires</title>
   </head>
   <body>
     <nav class="navbar bg-dark">
@@ -33,88 +33,73 @@
     <section class="container">
       <a href="profiles.html" class="btn btn-light">Volver</a>
 
-      <!-- Carrousel  -->
-      <!-- <div class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide"><img src="img/events/1.jfif"></li>
-            <li class="splide__slide"><img src="img/events/2.jfif"></li>
-            <li class="splide__slide"><img src="img/events/1.jfif"></li>
-            <li class="splide__slide"><img src="img/events/2.jfif"></li>
-            <li class="splide__slide"><img src="img/events/1.jfif"></li>
-            <li class="splide__slide"><img src="img/events/2.jfif"></li>
-          </ul>
-        </div>
-        <div class="my-slider-progress">
-          <div class="my-slider-progress-bar"></div>
-        </div>
-      </div>   -->
+
 
       <div class="profile-grid my-1">
          <!-- Top -->
         <div class="profile-top p-2">
-          <img
+          <!-- <img
             class="round-img my-1"
             src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
             alt=""
-          />
-          <h1 class="large">John Doe</h1>
-          <p class="lead">Developer at Microsoft</p>
-          <p>Seattle, WA</p>
-          <div class="icons my-1">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-globe fa-2x"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-             <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-youtube fa-2x"></i>
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
+          /> -->
+
+
+          <!-- Carrousel  -->
+          <div class="slider-item-show3 swiffy-slider slider-item-ratio slider-item-ratio-16x9 slider-nav-animation slider-nav-animation-fadein slider-nav-animation-scale slider-item-first-visible" id="swiffy-animation">
+            <ul class="slider-container">
+                <!-- <li><img src="https://source.unsplash.com/49b9l_29ceA/1600x900" style="max-width: 100%;height: auto;"></li>
+                <li><img src="https://source.unsplash.com/nKAglN6HBH8/1600x900" style="max-width: 100%;height: auto;"></li>
+                <li><img src="https://source.unsplash.com/E9ZwWcMGzj8/1600x900" style="max-width: 100%;height: auto;"></li> -->
+                <li><img src="img/events/11.jpg" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/events/22.jpg" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/events/33.jpg" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/events/11.jpg" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/events/22.jpg" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/events/33.jpg" style="max-width: 100%;height: auto;"></li>
+            </ul>
+        
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+        
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+            </div>
           </div>
 
+
+          <h1 class="medium mg-top-1">Trekking Sierras Las Animas</h1>
+          <p class="small">Una aventura increible en uno de los trekkings más desafiantes del Sistema de Tandilia</p>
         </div>
 
         <!-- About -->
         <div class="profile-about bg-light p-2">
-          <h2 class="text-primary">John's Bio</h2>
+          <!-- <h2 class="text-primary">John's Bio</h2> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed
-            doloremque nesciunt, repellendus nostrum deleniti recusandae nobis
-            neque modi perspiciatis similique?
+            En este maravilloso recorrido en mountain bike por el Valle de Calamuchita nos permite descubrir el Camino del Vino Cordobés, donde se desarrollan establecimientos familiares como  Juana Urbana, Finca Atos, Estancia Las Cañitas, Famiglia Furfaro o Vista Grande, y degustar en alguno de ellos los excelentes varietales producidos con las características propias de las uvas de la zona.
           </p>
           <div class="line"></div>
-          <h2 class="text-primary">Skill Set</h2>
+          <!-- <h2 class="text-primary">Skill Set</h2>
           <div class="skills">
             <div class="p-1"><i class="fa fa-check"></i> HTML</div>
             <div class="p-1"><i class="fa fa-check"></i> CSS</div>
             <div class="p-1"><i class="fa fa-check"></i> JavaScript</div>
             <div class="p-1"><i class="fa fa-check"></i> Python</div>
             <div class="p-1"><i class="fa fa-check"></i> C#</div>
-          </div>
+          </div> -->
         </div>
 
         <!-- Experience -->
         <div class="profile-exp bg-white p-2">
-          <h2 class="text-primary">Experience</h2>
+          <h2 class="text-primary">Datos Importantes</h2>
           <div>
-            <h3 class="text-dark">Microsoft</h3>
-            <p>Oct 2011 - Current</p>
-            <p><strong>Position: </strong>Senior Developer</p>
+            <h3 class="text-dark">Fecha</h3>
+            <p>02/08/2025</p>
+            <p><strong>Duración: </strong>4hs</p>
             <p>
-              <strong>Description: </strong>Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Dignissimos placeat, dolorum ullam
-              ipsam, sapiente suscipit dicta eius velit amet aspernatur
-              asperiores modi quidem expedita fugit.
+              <strong>Disponibilidad: </strong>3 lugares
             </p>
           </div>
           <div>
@@ -189,7 +174,6 @@
         </div>
       </div>
     </section>
-    <script src="assets/vendor/splide/js/splide.min.js"></script>
-    <script src="js/splide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.4.1/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
   </body>
 </html>
