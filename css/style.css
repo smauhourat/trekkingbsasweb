@@ -34,9 +34,17 @@ img {
   width: 100%;
 }
 
-.brand-logo {
+.img-logo {
   /*content:url("../img/logo.jpg");*/
-  width: 50px;
+  width: 40px;
+}
+
+.brand-logo {
+  height: 35px
+}
+
+.logo-big {
+  width: 250px;
 }
 
 /* Utilities */
@@ -618,8 +626,20 @@ button {
   margin-bottom: 0.5rem;
 }
 
+
+/* Notebooks Styles */
+/* @media (max-width: 900px) {
+  .logo-big {
+    width: 150px;
+  }
+} */
+
 /* Mobile Styles */
 @media (max-width: 700px) {
+  .logo-big {
+    width: 150px;
+  }
+
   .container {
     margin-top: 8rem;
   }
@@ -630,7 +650,7 @@ button {
 
   /* Text Styles */
   .x-large {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .large {
