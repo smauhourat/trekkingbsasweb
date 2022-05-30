@@ -850,3 +850,7 @@ input[type="file"] {
   white-space: nowrap; 
   min-width: max-content;
 }
+
+label {
+  font-weight: bold;
+}
