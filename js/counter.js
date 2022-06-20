@@ -45,6 +45,7 @@
   };
   
   const counters = document.querySelectorAll('.counter');
+  console.log(counters);
   counters.forEach((counter) => {
     const countTo = getNumber(counter);
     const animationDuration = getSpeed(counter);
