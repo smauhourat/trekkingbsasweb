@@ -766,21 +766,21 @@ button {
     width: 150px;
     height: 150px;
   }
-  
+ 
 }
 
 
-
-.nav-meses ul {
+/* Nav Calendar*/
+.nav-months ul {
   float: left;
   list-style: none;
 }
-.nav-meses li {
+.nav-months li {
   float:left;
   margin: 5px;
   border-radius:4px;
 }
-.nav-meses a {
+.nav-months a {
   width: 110px;
   text-align: center;
   float:left;
@@ -794,17 +794,24 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
-.nav-meses a:hover, nav a:focus {
+.nav-months a:hover, nav a:focus {
   outline: 0;
   color: #fff;
   background: var(--dark-color);
 }
-.nav-meses ul li a.active {
+.nav-months ul li a.active {
   color: #fff;
-  background: var(--primary-color);
+  background: var(--success-color);
 }
-.nav-meses ul li a.disabled {
+.nav-months ul li a.disabled {
   color: #333;
   background: var(--light-color);
   border: #eee solid 1px;
 }
+
+.rubber-stamp {
+  background: var(--dark-color);
+  color:#fff
+}
+
+/* End Nav Calendar*/
