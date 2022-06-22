@@ -1,116 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Bienvenidos a Trekking Buenos Aires</title>
-  </head>
-  <body>
-    <nav class="navbar bg-dark">
-      <h1>
-        <a href="index.html"><i class="fas fa-walking"></i> Trekking Buenos Aires</a>
-      </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Bienvenidos a Trekking Buenos Aires</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <ul class="brand-logo">
+      <li><img src="img/logo.svg" class="img-logo"></li>
+      <li>
+        <h1>
+          <a href="index.html">
+            Trekking Buenos Aires
+          </a>
+        </h1>
+      </li>
+    </ul>
+    <ul>
+      <li><a href="calendar.html">Calendario</a></li>
+      <li><a href="company.html">La Empresa</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <section class="container">
+    <h1 class="large text-primary">
+      Trips Images
+    </h1>
+    <p class="lead"><i class="fas fa-user"></i> Cargar Imagen</p>
+    <form class="form">
+      <label htmlFor="fileInput" class="btn btn-secondary btn-link">
+        <i class="fas fa-cloud-upload-alt"></i> Seleccione una Imagen
+      </label>
+      <input id="fileInput" type="file" name="image" />
+      <button class="btn btn-primary" type="submit">
+        Aceptar
+      </button>
+    </form>
+    <div>
+      <h2 class="my-2">Imagenes</h2>
+    </div>
+    <div class="cards">
       <ul>
-        <li><a href="profiles.html">Developers</a></li>
-        <li><a href="posts.html">Posts</a></li>
         <li>
-          |
-          <a href="dashboard.html" title="Dashboard"
-            ><i class="fas fa-user"></i>
-            <span class="hide-sm">Dashboard</span></a
-          >
+          <figure>
+            <!-- Photo by Quentin Dr on Unsplash -->
+            <!-- <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"> -->
+            <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651614282/tqebqtkibaapsc310hzi.png" alt="Several hands holding beer glasses"> -->
+            <img src="http://res.cloudinary.com/adhentux/image/upload/v1651614282/tqebqtkibaapsc310hzi.png"
+              alt="Several hands holding beer glasses">
+            <figcaption>
+              <h3>tqebqtkibaapsc310hzi</h3>
+            </figcaption>
+          </figure>
+          <p>
+            formato | tamaño | dimensiones
+          </p>
+          <hr>
+          <button class="btn btn-danger m">
+            <i class="fas fa-trash-alt" title="Eliminar"></i>
+          </button>
         </li>
         <li>
-          <a href="login.html" title="Logout">
-            <i class="fas fa-sign-out-alt"></i>
-            <span class="hide-sm">Logout</span></a
-          >
+          <figure>
+            <!-- Photo by Drew Farwell on Unsplash -->
+            <!-- <img src="https://images.unsplash.com/photo-1513309914637-65c20a5962e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80" alt="Several friends doing a toast"> -->
+            <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651600642/mdbpslnsedleiot09uh8.jpg" alt="Several friends doing a toast"> -->
+            <img src="http://res.cloudinary.com/adhentux/image/upload/v1651600642/mdbpslnsedleiot09uh8.jpg"
+              alt="Several friends doing a toast">
+            <figcaption>
+              <h3>Drake Equation</h3>
+            </figcaption>
+          </figure>
+          <p>
+            formato | tamaño | dimensiones
+          </p>
+          <hr>
+          <button class="btn btn-danger m">
+            <i class="fas fa-trash-alt" title="Eliminar"></i>
+          </button>
+        </li>
+        <li>
+          <figure>
+            <!-- Photo by Rawpixel on Unsplash -->
+            <!-- <img src="https://images.unsplash.com/photo-1535359056830-d4badde79747?ixlib=rb-1.2.1&auto=format&fit=crop&w=3402&q=80" alt="Three different glasses of beer"> -->
+            <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651519786/chdy6z2dzhqh3le67014.jpg" alt="Three different glasses of beer"> -->
+            <img src="http://res.cloudinary.com/adhentux/image/upload/v1651519786/chdy6z2dzhqh3le67014.jpg"
+              alt="Three different glasses of beer">
+            <figcaption>
+              <h3>Vast cosmic arena</h3>
+            </figcaption>
+          </figure>
+          <hr>
+          <p>
+            formato | tamaño | dimensiones
+          </p>
+          <hr>
+          <button class="btn btn-danger m">
+            <i class="fas fa-trash-alt" title="Eliminar"></i>
+          </button>
         </li>
       </ul>
-    </nav>
-    <section class="container">
-        <h1 class="large text-primary">
-            Trips Images
-        </h1>
-        <p class="lead"><i class="fas fa-user"></i> Cargar Imagen</p>
-        <form class="form">
-            <label  htmlFor="fileInput" class="btn btn-secondary btn-link">
-                <i class="fas fa-cloud-upload-alt"></i> Seleccione una Imagen
-            </label>
-            <input id="fileInput" type="file" name="image"/>            
-            <button class="btn btn-primary" type="submit">
-                Aceptar
-            </button>
-        </form>
-        <div>
-            <h2 class="my-2">Imagenes</h2>
-        </div>
-        <div class="cards">
-            <ul>
-              <li>
-                <figure>
-                  <!-- Photo by Quentin Dr on Unsplash -->
-                  <!-- <img src="https://images.unsplash.com/photo-1471421298428-1513ab720a8e" alt="Several hands holding beer glasses"> -->
-                  <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651614282/tqebqtkibaapsc310hzi.png" alt="Several hands holding beer glasses"> -->
-                  <img src="http://res.cloudinary.com/adhentux/image/upload/v1651614282/tqebqtkibaapsc310hzi.png" alt="Several hands holding beer glasses">
-                  <figcaption><h3>tqebqtkibaapsc310hzi</h3></figcaption>
-                </figure>
-                <p>
-                  formato | tamaño | dimensiones
-                </p>
-                <hr>
-                <button class="btn btn-danger m">
-                    <i class="fas fa-trash-alt" title="Eliminar"></i>
-                </button>              
-              </li>
-              <li>
-                <figure>
-                  <!-- Photo by Drew Farwell on Unsplash -->
-                  <!-- <img src="https://images.unsplash.com/photo-1513309914637-65c20a5962e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80" alt="Several friends doing a toast"> -->
-                  <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651600642/mdbpslnsedleiot09uh8.jpg" alt="Several friends doing a toast"> -->
-                  <img src="http://res.cloudinary.com/adhentux/image/upload/v1651600642/mdbpslnsedleiot09uh8.jpg" alt="Several friends doing a toast">
-                  <figcaption><h3>Drake Equation</h3></figcaption>
-                </figure>
-                <p>
-                    formato | tamaño | dimensiones
-                </p>
-                <hr>
-                <button class="btn btn-danger m">
-                    <i class="fas fa-trash-alt" title="Eliminar"></i>
-                </button>              
-              </li>
-              <li>
-                <figure>
-                  <!-- Photo by Rawpixel on Unsplash -->
-                  <!-- <img src="https://images.unsplash.com/photo-1535359056830-d4badde79747?ixlib=rb-1.2.1&auto=format&fit=crop&w=3402&q=80" alt="Three different glasses of beer"> -->
-                  <!-- <img src="http://res.cloudinary.com/adhentux/image/upload/ar_1.0,c_limit,h_150/v1651519786/chdy6z2dzhqh3le67014.jpg" alt="Three different glasses of beer"> -->
-                  <img src="http://res.cloudinary.com/adhentux/image/upload/v1651519786/chdy6z2dzhqh3le67014.jpg" alt="Three different glasses of beer">
-                  <figcaption><h3>Vast cosmic arena</h3></figcaption>
-                </figure>
-                <hr>
-                <p>
-                    formato | tamaño | dimensiones
-                </p>
-                <hr>
-                <button class="btn btn-danger m">
-                    <i class="fas fa-trash-alt" title="Eliminar"></i>
-                </button>              
-              </li>
-            </ul>
-        </div>	   
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
