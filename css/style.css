@@ -484,6 +484,10 @@ button {
   margin-right: 0.6rem;
 }
 
+.nav-normal {
+  display: grid
+}
+
 /* Landing Page */
 .landing {
   position: relative;
@@ -670,8 +674,30 @@ button {
   }
 } */
 
+.navbar .nav-desktop {
+  display: flex;
+}
+
+.toggle {
+display: none;
+}
+
+.navbar .nav-mobile {
+display: block;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 700px) {
+  
+  .navbar .nav-desktop {
+    display: none;
+}
+
+.toggle {
+  display: block;
+}
+
   .logo-big {
     width: 150px;
   }
@@ -768,7 +794,7 @@ button {
   }
  
 }
-
+/* End Mobile Styles */
 
 /* Nav Calendar*/
 .nav-months ul {
