@@ -33,6 +33,7 @@ const mediaQuery = window.matchMedia('(max-width: 710px)');
 mediaQuery.addEventListener('change', handleViewPortChange);
 
 function handleViewPortChange() {
+    console.log('call handleViewPortChange')
     if (!mediaQuery.matches) {
 
         if (menu.classList.contains("nav-mobile")) {
