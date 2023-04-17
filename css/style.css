@@ -44,9 +44,15 @@ img {
 }
 
 .logo-big {
-  position: relative;;
+  position: relative;
   width: 250px;
   margin-top: 50px;
+}
+
+.logo-home {
+  position: relative;
+  width: 230px;
+  margin-top: 90px;
 }
 
 /* Utilities */
@@ -708,6 +714,12 @@ display: block;
     width: 150px;
   }
 
+  .logo-home {
+    position: relative;
+    width: 150px;
+    margin-top: 90px;
+  }
+ 
   .container {
     margin-top: 8rem;
   }
