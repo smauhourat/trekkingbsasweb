@@ -73,6 +73,24 @@ img {
   opacity: 0.9;
 } */
 
+#footer {
+  position: fixed;
+  height: 20px;
+  bottom: 0px;
+  /* left: 0px; */
+  right: 20px;
+  margin-bottom: 5px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer p {
+  font-size: 0.75rem;
+  color: #fff;
+}
+
 .footer-basic {
   padding: 40px 0;
   background-color: #ffffff;
