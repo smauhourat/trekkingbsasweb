@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Meta Description -->
+  <meta name="description"
+    content="Somos un grupo de amigos, y amigos de amigos, sin intenciones de lucro que hacemos caminos de trekking, los inventamos y los conquistamos">
+  <meta name="keywords" content="Trekking, Kayaks, Mountain Bike, Caminatas, Excursiones">
+  <meta name="author" content="Adhentux">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Bienvenidos a Trekking Buenos Aires</title>
+</head>
+
+<body>
+  <nav class="navbar bg-dark">
+    <ul class="brand-logo">
+      <li><img src="img/logo.svg" class="img-logo" alt="trekking bs as"></li>
+      <li>
+        <h1>
+          <a href="index.html">
+            Trekking Buenos Aires</a>
+        </h1>
+      </li>
+    </ul>
+    <ul>
+      <!-- <li><a href="calendar.html">Calendario</a></li>
+      <li><a href="company.html">La Empresa</a></li>
+      <li><a href="contact.html">Contacto</a></li> -->
+      <!-- <li><a href="dashboard.html">Dashboard</a></li> -->
+      <li><a href=""><i class="fas fa-sign-out-alt"></i> <span class="hide-sm">Logout</span></a></li>
+    </ul>
+  </nav>
+  <section class="container">
+    <h1 class="large text-primary">
+      Dashboard
+    </h1>
+    <p class="lead"><i class="fas fa-user"></i> Bienvenido "Jose Perez"</p>
+    <div class="dash-buttons">
+      <a href="create-profile.html" class="btn btn-light"><i class="fas fa-paperclip text-primary"></i> Agregar
+        Evento</a>
+      <a href="add-experience.html" class="btn btn-light"><i class="fas fa-user-circle text-primary"></i> Agregar
+        Usuario</a>
+    </div>
+
+    <h2 class="my-2">Eventos</h2>
+    <div>
+      <input type="checkbox" />
+      <label alt="Activos"> Mostrar solo activos</label>
+      <input type="text" class='form-input' /><button class="btn btn-primary btn-link">
+        <i class="fas fa-search" title="Buscar"></i></button>
+    </div>
+
+    <table class="table" width="100%">
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th class="hide-sm">Titulo</th>
+          <th class="hide-sm">Cupo</th>
+          <th class="hide-sm">Reservas</th>
+          <th class="hide-sm">Publicado</th>
+          <th class="hide-sm">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>02/08/2025</td>
+          <td class="hide-sm">Trekking Sierras Las Animas</td>
+          <td style="text-align: center">15</td>
+          <td style="text-align: center">5</td>
+          <td style="text-align: center">SI</td>
+          <td>
+            <a href="images-list.html" class="btn btn-primary btn-link" alt="Imagenes">
+              <i class="fas fa-file-image"></i>
+            </a>
+            <button class="btn btn-success btn-link">
+              <i class="fas fa-edit" title="Editar"></i>
+            </button>
+            <button class="btn btn-danger  btn-link">
+              <i class="fas fa-trash-alt" title="Eliminar"></i>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>04/07/2030</td>
+          <td class="hide-sm">Kayak por Rio Sarmiento</td>
+          <td style="text-align: center">21</td>
+          <td style="text-align: center">2</td>
+          <td style="text-align: center">SI</td>
+          <td>
+            <a href="images-list.html" class="btn btn-primary btn-link">
+              <i class="fas fa-file-image"></i>
+            </a>
+            <button class="btn btn-success  btn-link">
+              <i class="fas fa-edit" title="Editar"></i>
+            </button>
+            <button class="btn btn-danger  btn-link">
+              <i class="fas fa-trash-alt" title="Eliminar"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6">
+            <button class="btn btn-primary btn-small" title="Anterior">
+              <li class="fas fa-angle-left"></li>
+            </button>
+            <button class="btn btn-primary btn-small" title="Siguiente">
+              <li class="fas fa-angle-right"></li>
+            </button>
+            <div class="tiny inline">Página 1 de 6 - total de registros: 16</div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2 class="my-2">Usuarios</h2>
+    <table class="table" width="100%">
+      <thead>
+        <tr>
+          <th width="30%">Nombre</th>
+          <th width="40%" class="hide-sm">Email</th>
+          <th width="10%" class="hide-sm">Estado</th>
+          <th width="20%">Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jose Perez</td>
+          <td class="hide-sm">jperez@hotmail.com</td>
+          <td class="hide-sm">
+            activo
+          </td>
+          <td>
+            <button class="btn btn-danger  btn-link">
+              <i class="fas fa-trash-alt" title="Eliminar"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+
+</html>

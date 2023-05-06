@@ -55,6 +55,18 @@ img {
   margin-top: 90px;
 }
 
+.input-text {
+  display: inline;
+  /* width: 100%; */
+  padding: 0.2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
 /* Utilities */
 .container {
   max-width: 1100px;
@@ -63,6 +75,10 @@ img {
   padding: 0 2rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
+}
+
+.inline {
+  display: inline-block;
 }
 
 /* .footer {
@@ -200,6 +216,12 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.tiny {
+  font-size: 0.90rem;
+  line-height: 1;
+  justify-items: center;
+}
+
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -313,6 +335,10 @@ img {
   transition: opacity 0.2s ease-in;
   outline: none;
   border-radius: 4px;
+}
+
+.btn-small {
+  font-size: 0.6rem
 }
 
 .badge {
@@ -453,6 +479,17 @@ img {
   border: 1px solid #ccc;
 }
 
+.form-input {
+  border: 1px solid #ccc;
+  display: inline;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  padding: 0.2rem;
+  resize: none;
+}
+
 .form input[type='submit'],
 button {
   font: inherit;
@@ -487,6 +524,8 @@ button {
   color: #0077b5;
 }
 
+
+
 .table th,
 .table td {
   padding: 1rem;
@@ -494,6 +533,10 @@ button {
 }
 
 .table th {
+  background: var(--light-color);
+}
+
+.table tfoot td {
   background: var(--light-color);
 }
 
@@ -863,6 +906,10 @@ button {
 }
 
 /* End Mobile Styles */
+
+.btn-link {
+  line-height: 1;
+}
 
 /* Nav Calendar*/
 .nav-months ul {
