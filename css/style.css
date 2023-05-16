@@ -902,7 +902,7 @@ button {
     width: 150px;
     height: 150px;
   }
-  
+
 }
 
 /* End Mobile Styles */
@@ -996,4 +996,8 @@ nav a:focus {
 
 .my-float {
   margin-top: 16px;
+}
+
+.footnote {
+  font-size: 13px;
 }
