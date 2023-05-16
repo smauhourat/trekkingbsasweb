@@ -51,7 +51,7 @@ img {
 
 .logo-home {
   position: relative;
-  width: 230px;
+  width: 210px;
   margin-top: 90px;
 }
 
@@ -105,6 +105,18 @@ img {
 #footer p {
   font-size: 0.75rem;
   color: #fff;
+}
+
+.footer-home {
+  position: fixed;
+  height: 80px;
+  bottom: 0px;
+  /* padding: 40px 0; */
+  background-color: #ffffff;
+  color: #4b4c4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-basic {
