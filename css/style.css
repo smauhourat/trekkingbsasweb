@@ -643,7 +643,13 @@ button {
 .conditions-container {
   margin-top: 4.0rem;
   /* margin-left: 10rem;
-  margin-right: 10rem; */
+  margin-right: 10rem; 
+  */
+}
+
+.conditions-container p {
+  margin-top: 1.2rem;
+  line-height: 1.6;
 }
 
 /* Profiles Page */
